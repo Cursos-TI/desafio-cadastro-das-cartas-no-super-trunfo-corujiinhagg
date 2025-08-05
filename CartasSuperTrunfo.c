@@ -14,7 +14,7 @@ int main() {
     // Cadastro da Carta 1:
     printf("Dados da Carta 1 \n");
     printf("Digite seu estado:");
-    scanf("%c" , &estado1);
+    scanf(" %c" , &estado1);
     printf("Digita o codigo: ");
     scanf("%s" , codigo1);
     printf("Digita o nome da sua cidade: ");
